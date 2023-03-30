@@ -43,12 +43,12 @@
     height: clamp(400px,60vh,432px);
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid red; */
 }
 .All_Page5{
     text-align: center;
     width: clamp(350px,25%,384px);
-    height: clamp(300px,59vh,425px);
+    height: max-content;
+    margin: 1rem;
 }
 
 .H3_P5{
@@ -63,7 +63,7 @@
     font-size: 3.4rem;
     text-align: center;
     margin: auto;
-    width: 91%;
+    width: clamp(160px,91%,170px);
     margin-top: 2rem;
 }
 
@@ -80,7 +80,6 @@
     height: clamp(400px,80vh,576px);
     display: flex;
     justify-content: center;
-    /* border: 2px solid red; */
 }
 
 .box1_Page5_IMG{
@@ -197,14 +196,14 @@
 }
 
 .Foot1 h1:nth-child(1){
-    width: clamp(160px,13vw,199px);
+    width: clamp(112px,13vw,199px);
 }
 .Foot1 h1:nth-child(2){
-    width: clamp(130px,10vw,153px);
+    width: clamp(89px,10vw,153px);
 }
 .Foot1 h1:nth-child(3){
-    width: clamp(150px,11vw,168px);
+    width: clamp(90px,11vw,168px);
 }
 .Foot1 h1:nth-child(4){
-    width: clamp(200px,16vw,245px);
+    width: clamp(137px,16vw,245px);
 }

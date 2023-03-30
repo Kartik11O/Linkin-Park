@@ -48,8 +48,7 @@
     
     #First_footer {
         justify-content: center;
-        align-items: center;
-        flex-direction: column;
+
     }
     .Foot1 {
         width: clamp(300px,50vw,759px);
@@ -59,5 +58,21 @@
 
     #Page5_IMG_ID {
         background-size: 203%;
+    }
+
+    #Box_Page5 {
+        flex-wrap: wrap;
+    }
+    .H3_P5_2 {
+        font-size: 1.5rem;
+    }
+
+    .H3_P5 {
+        font-size: 2rem;
+    }
+
+    .Foot1 h1 {
+        font-size: 2.7rem;
+    
     }
 }
