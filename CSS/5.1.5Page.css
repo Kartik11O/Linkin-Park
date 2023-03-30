@@ -1,0 +1,210 @@
+#First_Page_5{
+    position: relative;
+    height: clamp(400px,100vh,721px);
+    width: clamp(750px,100%,100%);
+    background-color: #000;
+    font-family: var(--font);
+    color: #c41c1c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#First_Page_5-Part2{
+    position: relative;
+    height: clamp(400px,80vh,603px);
+    width: clamp(750px,100%,100%);
+    background-color: #000;
+    font-family: var(--font);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#First_Page_5-Part3{
+    position: relative;
+    height: clamp(400px,100vh,721px);
+    width: clamp(750px,100%,100%);
+    background-color: #000;
+    font-family: var(--font);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Headline_Page5{
+    font-size: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#Box_Page5{
+    width: clamp(400px,100%,1980px);
+    height: clamp(400px,60vh,432px);
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.All_Page5{
+    text-align: center;
+    width: clamp(350px,25%,384px);
+    height: clamp(300px,59vh,425px);
+}
+
+.H3_P5{
+    font-size: 1.2rem;
+    margin: auto;
+    margin-top: 2rem;
+    width: 32%;
+    font-weight: 100;
+}
+
+.H1_P5{
+    font-size: 3.4rem;
+    text-align: center;
+    margin: auto;
+    width: 91%;
+    margin-top: 2rem;
+}
+
+.H3_P5_2{
+    margin: auto;
+    margin-top: 2rem;
+    width: 45%;
+    font-weight: 100;
+    text-align: center;
+}
+
+#Box_2_Page5{
+    width: clamp(400px,100%,1980px);
+    height: clamp(400px,80vh,576px);
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.box1_Page5_IMG{
+    width: clamp(400px,50%,1980px);
+    height: clamp(400px,77vh,555px)
+}
+
+.box1_Page5_IMG h3{
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: 100;
+}
+.box1_Page5_IMG h1 {
+    margin-left: 2rem;
+    width: 85%;
+    font-size: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#Page5_btn{
+    width: clamp(250px,20vw,1980px) ;
+    height: clamp(80px,13vh,93px);
+    margin-left: 2rem;
+    font-size: 1.9rem;
+    background-color: #fff;
+    transition: 0.3s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#Page5_btn:hover{
+    background-color:#28282B;
+    color: #fff;
+}
+
+#Page5_IMG_ID{
+    background-image: url(wallpaper/p1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: clamp(400px,48%,737px);
+    height: clamp(400px,77vh,555px);
+    margin: auto;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    /* In this one i've added height and width for the container */
+}
+
+#Box_2_Page_SmallP{
+    width: clamp(400px,100%,1980px);
+    height: clamp(320px,47vh,352px);
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Box_Page5_small{
+    width: clamp(330px,23vw,353px);
+    height: clamp(338px,47vh,338px);
+    transition: 0.3s;
+}
+.Box_Page5_small:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+#Box_Page5_S1{
+    background-image: url(https://m.media-amazon.com/images/M/MV5BYzllM2Y2ZmItYjgwOS00MmM2LTg5MDgtYWRjZDgwOTgxNWQ1XkEyXkFqcGdeQXVyNjE0ODc0MDc@._V1_FMjpg_UX1200_.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Box_Page5_S2{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/2/2a/Linkin_Park_Hybrid_Theory_Album_Cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Box_Page5_S3{
+    background-image: url(https://www.linkinpark.com/sites/g/files/g2000015666/files/styles/merch_image_600_600/public/2019-04/20170216_152248_10272_969203.jpeg?itok=ZvOGa2Lm);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Box_Page5_S4{
+    background-image: url(https://www.linkinpark.com/sites/g/files/g2000015666/files/styles/merch_image_600_600/public/2019-04/20160720_202837_10272_935112.jpeg?itok=AVw0K3uV);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#First_footer{
+    width: clamp(600px,100%,1536px);
+    height: clamp(250px,40vh,301px);
+    display: flex;
+}
+.Foot1{
+    width: clamp(300px,50vw,759px);
+    height:clamp(250px,39vh,288px);
+    /* border: 2px solid red;    */
+}
+.Foot1 h1{
+    font-weight: 100;
+    margin-left: 2rem;
+    font-size: 2rem;
+    border-bottom: 2px solid #3a3a3a;
+    color: #c41c1c;
+}
+
+#email{
+    border: none;
+}
+
+.Foot1 h1:nth-child(1){
+    width: clamp(160px,13vw,199px);
+}
+.Foot1 h1:nth-child(2){
+    width: clamp(130px,10vw,153px);
+}
+.Foot1 h1:nth-child(3){
+    width: clamp(150px,11vw,168px);
+}
+.Foot1 h1:nth-child(4){
+    width: clamp(200px,16vw,245px);
+}

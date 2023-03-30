@@ -1,0 +1,63 @@
+@media (max-width:600px) {
+    html{
+        font-size: 50%;
+    }
+
+    #nav-bar{
+        display: none;
+    }
+
+    #Page3_Headline {
+        font-size: 3rem;
+    }
+
+    #Page3_P {
+        width: clamp(400px,120vw,450px);
+    }
+
+    #First_Page_2 {
+       flex-wrap: wrap;
+    }
+
+    .box_1_page {
+        height: 50%;
+
+    }
+    .box_2_page {
+        height: 50%;
+
+    }
+    #First_Page_5-Part3 {
+        height: max-content;
+    }
+
+    #Box_2_Page_SmallP {
+        height: max-content;
+        flex-wrap: wrap;
+        /* margin: 1rem; */
+   
+    }
+    .Box_Page5_small:hover{
+        transform: none;
+    }
+    
+
+    .Box_Page5_small {
+        margin: 1rem;
+    }
+    
+    #First_footer {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Foot1 {
+        width: clamp(300px,50vw,759px);
+        height: clamp(250px,39vh,288px);
+        margin: 3rem;
+    }
+
+    #Page5_IMG_ID {
+        background-size: 203%;
+    }
+}
