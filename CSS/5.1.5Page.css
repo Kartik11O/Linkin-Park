@@ -63,7 +63,7 @@
     font-size: 3.4rem;
     text-align: center;
     margin: auto;
-    width: clamp(160px,91%,170px);
+    width: 100%;
     margin-top: 2rem;
 }
 
