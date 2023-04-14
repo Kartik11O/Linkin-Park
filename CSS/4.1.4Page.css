@@ -1,7 +1,7 @@
 #First_Page_4{
     position: relative;
-    height: clamp(400px,130vh,981px);
-    width: clamp(750px,100%,100%);
+    height: clamp(300px,130vh,981px);
+    width: clamp(300px,100%,100%);
     background-color: #000;
     font-family: var(--font);
     color: #fff;
@@ -39,8 +39,8 @@
 }
 
 #Page_4_box{
-    width: clamp(500px,33vw,506px);
-    height: clamp(500px,67vh,506px);
+    width: clamp(300px,33vw,506px);
+    height: clamp(300px,67vh,506px);
     background-image: url(https://m.media-amazon.com/images/M/MV5BOTdkZGEzYmUtODIxYi00MTUyLTgxM2QtMGYwODcxYjMyMTg0XkEyXkFqcGdeQXVyMjAzMjcxNTE@._V1_.jpg);
     background-size: cover;
     background-repeat: no-repeat;

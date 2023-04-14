@@ -12,7 +12,8 @@
     }
 
     #Page3_P {
-        width: clamp(400px,120vw,450px);
+        font-size: 4.9rem;
+        width: clamp(300px,81vw,452px);
     }
 
     #First_Page_2 {
@@ -47,9 +48,9 @@
     }
     
     #First_footer {
-        justify-content: center;
-
+        flex-direction: column;
     }
+
     .Foot1 {
         width: clamp(300px,50vw,759px);
         height: clamp(250px,39vh,288px);
@@ -57,12 +58,16 @@
     }
 
     #Page5_IMG_ID {
-        background-size: 203%;
+        background-size: contain;
     }
 
     #Box_Page5 {
         flex-wrap: wrap;
+        height: max-content;
+        align-items: center;
+        justify-content: center;
     }
+
     .H3_P5_2 {
         font-size: 1.5rem;
     }
@@ -72,10 +77,55 @@
     }
 
     .Foot1 h1 {
-        font-size: 2.7rem;
+        font-size: 2rem;
     
     }
     .H1_P5 {
         width: clamp(160px,91%,170px);
     }
+
+
+    #Page_4_box {
+       background-size: contain;
+         /* height: 57vh; */
+    }
+
+    .P4_Headline {
+        font-size: 6rem;
+    }
+
+    #Headline_Page5 {
+        font-size: 6rem;
+        text-align: center;
+    }
+
+    #First_Page_5 {
+    height: clamp(300px,114vh,760px);
+    }
+
+    #First_Page_3 {
+       height: clamp(866px,105vh,886px);
+
+    }
+
+    #NavPhone23{
+        display: block !important;
+    }
+
+    #Box_2_Page5 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: clamp(300px,80vh,602px);
+    }
+
+    #Size_Phone{
+        font-size: 4.2rem;
+    }
+
+    #Cover { 
+        background-image: url(Wallpaper/CoverPhone.jpg);
+    }
+
+  
 }

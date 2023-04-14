@@ -1,0 +1,27 @@
+@media all and (max-device-width: 1200px) and (orientation: landscape){
+
+    html{
+        font-size: 50%;
+    }
+
+    .Box_Page5_small {
+        width: clamp(180px,23vw,353px);
+        height: clamp(180px,47vh,338px);
+        transition: 0.3s;
+    }
+
+    .Box_Page5_small:hover {
+        transform: none;
+    }
+
+    #Page3_P {
+        font-size: 5rem;
+    }
+    #Box_2_Page5 {
+        height: clamp(390px,80vh,576px);
+    }
+
+    #First_Page_5-Part2 {
+        height: clamp(390px,80vh,603px);
+    }
+}

@@ -11,23 +11,26 @@ body{
     }
     
 }
-
+a{
+    color: #fff;
+    text-decoration: none;
+}
 #First_Page{
     position: relative;
-    width: clamp(750px,100%,100%);
-    height: clamp(721px,100vh,755px);    
+    width: clamp(300px,100%,100%);
+    height: clamp(300px,100vh,755px);    
 }
 
 #nav-bar{
-    position: absolute;
-    top: 0;
-    width: clamp(600px,100%,100%);
+    position: relative;
+    width: clamp(300px,100%,100%);
     height: clamp(86px,12vh,86px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: var(--font);
     color: #fff;
+    z-index: 990;
 }
 .box_1_nav{
     width: 30%;
@@ -72,6 +75,8 @@ body{
 /* Cover Start Here */
 
 #Cover{
+    position: absolute;
+    top: 0;
     height: 100%;
     width: 100%;
     background-image: url("Wallpaper/Cover.jpg");

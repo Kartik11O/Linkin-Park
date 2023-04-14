@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="CSS/4.1.4Page.css">
     <link rel="stylesheet" href="CSS/5.1.5Page.css">
     <link rel="stylesheet" href="CSS/Phone.css">
+    <link rel="stylesheet" href="CSS/PhoneNav.css">
+    <link rel="stylesheet" href="CSS/PhoneLandsScape.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
@@ -20,17 +22,45 @@
 </head>
 
 <body>
+
+    <section id="NavPhone">
+        <div id="Top">
+            <a href="#" class="fa fa-circle-o" id="" onclick="Open_Close()"></a>
+            <h1 id="Home"><a href="https://kartik11o.github.io/Linkin-Park/" id="Home_A">Linkin Park</a></h1>
+            <a href="" class=" fa fa-shopping-cart"></a>
+        </div>
+
+        <div id="container_NavPhone">
+
+            <h1 class="Animation_A"><a href="https://kartik11o.github.io/Linkin-Park-Music/">Music</a></h1>
+            <h1 class="Animation_B"><a href="https://kartik11o.github.io/Club/">Wild Club</a></h1>
+            <h1 class="Animation_C"><a href="https://kartik11o.github.io/Linkin-Park-Tour/">Tour</a></h1>
+            <h1 class="Animation_D"><a href="https://kartik11o.github.io/LinkinPark-Store/">Store</a></h1>
+        </div>
+
+    </section>
+
+ <Main id="Page_1">
     <section id="First_Page">
+
+        <header id="NavPhone23">
+            <div id="Top">
+                <a href="#" class="fa fa-circle-o" onclick="Open_Close()"></a>
+                <h1 id="Home"><a href="https://kartik11o.github.io/Linkin-Park/" id="Home_A">Linkin Park</a></h1>
+                <a href="" class=" fa fa-shopping-cart"></a>
+            </div>
+        </header>
+
         <div id="nav-bar">
             <div class="box_1_nav">
                 <a href="https://kartik11o.github.io/Linkin-Park-Music/">Music</a>
                 <a href="https://kartik11o.github.io/Club/">Wild Club</a>
                 <a href="https://kartik11o.github.io/Linkin-Park-Tour/">Tour</a>
-                <a href="https://kartik11o.github.io/LinkinPark-Store/">Store</a>    
+                <a href="https://kartik11o.github.io/LinkinPark-Store/">Store</a>
             </div>
 
             <div class="box_2_nav">
-                <h2> <a href="https://kartik11o.github.io/Linkin-Park/">Linkin Park</a> </h2>
+                <h2>  <a href="http://127.0.0.1:5500/index.html">Linkin Park</a> </h2>
             </div>
             <div class="box_3_nav">
                 <h3>logic</h3>
@@ -42,7 +72,7 @@
 
         <div id="Cover">
             <div id="box_1_cover" class="Boxs_cover">
-                <h1>Listen Now</h1>
+               <a href="https://kartik11o.github.io/Linkin-Park-Music/"> <h1>Listen Now</h1> </a>
             </div>
             <div id="box_2_cover" class="Boxs_cover">
                 <h1>Breaking the Habit</h1>
@@ -53,18 +83,22 @@
         <div class="box_1_page"></div>
         <div class="box_2_page"></div>
     </section>
+
     <section id="First_Page_3">
-        <h1 id="Page3_Headline">GAIN EXCLUSIVE ACCESS TO</h1>
-        <p id="Page3_P">NEW TRACKS • EXCLUSIVE CONTENT • SCHEDULED DROPS • SPECIAL EDITION MERCH • VIDEO SERIES •
-            COLLABORATIONS • SHOWS • DISCOUNTS AND MORE</p>
-        <button id="Btn_Page3">Join Club</button>
+        <div id="container_Page3">
+            <h1 id="Page3_Headline">GAIN EXCLUSIVE ACCESS TO</h1>
+            <p id="Page3_P">NEW TRACKS • EXCLUSIVE CONTENT • SCHEDULED DROPS • SPECIAL EDITION MERCH • VIDEO SERIES •
+                <span id="Size_Phone"> COLLABORATIONS </span> • SHOWS • DISCOUNTS AND MORE</p>
+           <a href="https://kartik11o.github.io/Club/"> <button id="Btn_Page3">Join Club</button> </a>
+        </div>
     </section>
+
     <section id="First_Page_4">
         <h1 class="P4_Headline">NEW</h1>
         <div id="Page_4_box"></div>
         <h1 class="P4_Headline">SINGLE</h1>
     </section>
-    
+
     <section id="First_Page_5">
         <h1 id="Headline_Page5">TOUR DATES</h1>
 
@@ -101,13 +135,13 @@
 
     <section id="First_Page_5-Part2">
 
-    
+
         <div id="Box_2_Page5">
             <div class="box1_Page5_IMG">
                 <h3>LATEST SINGLE</h3>
                 <h1>BELOW
                     THE LIGHT</h1>
-                <button id="Page5_btn">Listen Now</button>
+              <a href="https://kartik11o.github.io/Linkin-Park-Music/"> <button id="Page5_btn">Listen Now</button></a>  
             </div>
 
             <div id="Page5_IMG_ID" class="box1_Page5_IMG"></div>
@@ -125,7 +159,7 @@
 
         <footer id="First_footer">
             <div class="Foot1">
-                <h1 id="email">EMAIL@EXAMPLE.COM</h1>
+                <h1 id="email">kartikweb101@gmai.com</h1>
             </div>
             <div class="Foot1">
                 <h1>INSTAGRAM</h1>
@@ -135,8 +169,11 @@
             </div>
         </footer>
     </section>
-    
-    <!-- <section style="width: 100%; height: 50vh; background-color: black;"></section> -->
+
+</Main>
+
+    <script src="JS/Nav.js">
+    </script>
 </body>
 
 </html>

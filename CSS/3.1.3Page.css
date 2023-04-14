@@ -1,12 +1,19 @@
 #First_Page_3{
     position: relative;
-    height: clamp(600px,131vh,990px);
-    width: clamp(750px,100%,100%);
+    height: clamp(300px,131vh,990px);
+    width: clamp(300px,100%,100%);
     background-color: #000;
     color: #fff;
     font-family: var(--font);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container_Page3{
+    width: clamp(300px,100%,1980px);
+    height: clamp(300px,100%,987px);
 }
 
 #Page3_Headline{
