@@ -3,14 +3,8 @@ body{
     margin: 0;
     box-sizing: border-box;
     background-color: #000;
-    animation: body 3s both ;
 }
-@keyframes body {
-    0%{
-        opacity: 0;
-    }
-    
-}
+
 a{
     color: #fff;
     text-decoration: none;
@@ -24,7 +18,7 @@ a{
 #nav-bar{
     position: relative;
     width: clamp(300px,100%,100%);
-    height: clamp(86px,12vh,86px);
+    height: clamp(30px,12vh,86px);
     display: flex;
     justify-content: space-between;
     align-items: center;

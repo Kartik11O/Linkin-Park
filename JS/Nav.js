@@ -5,7 +5,6 @@ function Open_Close(){
    
     if(NavPhone.style.display == "none"){
         NavPhone.style.display = "block"
-        // Page_1.style.display = "none"
     }
 
     else{

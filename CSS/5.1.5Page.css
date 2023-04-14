@@ -110,6 +110,7 @@
     border: none;
     outline: none;
     cursor: pointer;
+    color: #000000;
 }
 #Page5_btn:hover{
     background-color:#28282B;
